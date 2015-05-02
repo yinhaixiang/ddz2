@@ -1,0 +1,4 @@
+Quintus.ddzGame = function (Q) {
+
+
+};

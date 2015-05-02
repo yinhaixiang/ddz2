@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
+    <title>DDZ</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="jquery-1.7.1.js"></script>
+    <script src='lib/quintus.js'></script>
+    <script src='lib/quintus_sprites.js'></script>
+    <script src='lib/quintus_scenes.js'></script>
+    <script src='lib/quintus_input.js'></script>
+    <script src='lib/quintus_anim.js'></script>
+    <script src='lib/quintus_2d.js'></script>
+    <script src='lib/quintus_ui.js'></script>
+    <script src="lib/quintus_dom.js"></script>
+    <script src="lib/quintus_ui.js"></script>
+    <script src="lib/quintus_touch.js"></script>
+    <script src='js/ddz.js'></script>
+    <script src='js/ddz_scenes.js'></script>
+    <script src='js/ddz_sprites.js'></script>
+    <script src='js/ddz_ui.js'></script>
+    <script src='js/ddz_game.js'></script>
+    <script src='js/ddz_client.js'></script>
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+            background: url("images/bg.jpg");
+        }
+    </style>
+    <script>
+
+    </script>
+</head>
+<body>
+<div id="loginDiv" style="position: absolute; top: 130px; left: 500px;">
+    <h2 style="color: yellow;">欢乐斗地主</h2>
+    <form id="form1" action="ddz.html" method="get">
+        <span style="color: yellow;">昵称：</span>
+        <input type="text" id="uname">
+        <input type="button" value="加入游戏" id="loginBtn">
+    </form>
+</div>
+<canvas id="gameDiv" style="display: none;"></canvas>
+</body>
+</html>
